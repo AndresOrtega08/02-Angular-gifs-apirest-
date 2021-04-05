@@ -1,0 +1,13 @@
+<div class="row">
+    <div *ngFor="let gifs of resultado" class="col-md-4 col-sm-6   animate__animated animate__fadeIn animate_faster"
+  
+    >
+
+        <div class="card">
+            <img [src]="gifs.images.downsized_medium.url" [alt]="gifs.title" class="card-img-top">
+        </div>
+        <div class="card-body">
+            <p class="card-text"></p>
+        </div>
+    </div>
+</div>
